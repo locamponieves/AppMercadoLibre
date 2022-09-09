@@ -1,9 +1,7 @@
 ## Tabla de contenido
 1. [Información general](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+2. [Tecnologías](#technologies)
+3. [Instalación](#installation)
 ### Información general
 ***
 Aplicación web que consume la API de mercado libre para la consulta de productos y su visualización al detalle. 
@@ -12,41 +10,39 @@ Aplicación web que consume la API de mercado libre para la consulta de producto
 ![Image text](https://i.postimg.cc/HscWFcvJ/02-foto.png)
 ![Image text](https://i.postimg.cc/5Nh9J4Ds/03-foto.png)
 ![Image text](https://i.postimg.cc/RZwSZrB4/04-foto.png)
-## Technologies
+## Tecnologías
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
+Lista de las tecnologias utilizadas en este proyecto:
+* NodeJS 16.13.2 (Express)
+* Npm 8.19.1
+* Html
+* Css (Sass)
+* JavaScript (ReactJS)
+## Instalación
 ***
-A little intro about the installation. 
+Pasos para poder ejecutar el proyecto en su equipo. 
+
+Clonamos el repositorio. 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
+$ git clone https://github.com/locamponieves/AppMercadoLibre
+```
+Despues de descargar el repositorio, ingresar a la carpeta AppMercadoLibre.
+Encontrará 2 carpetas mas (Frontend y Backend) 
+![Image text](https://i.postimg.cc/zX6QP34G/Captura-de-pantalla-125.png)
+
+Ingresamos a la carpeta Backend y ejecutamos el siguiente comando en la terminal.
+Esto instalará todas las dependencias que necesita el proyecto para funcionar 
+correctamente. respetir el mismo paso con la carpeta FRONTEND
+```
 $ npm install
-$ npm start
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+
+Despues de instalado todas las dependencias, se ejecuta el siguiente comando
+en los 2 proyectos:
+```
+$ npm run dev
+```
+
+El proyecto Backend corre bajo el puerto 3.000 y el frontend en el puerto: 127.0.0.1:5173
+
+Ya con esto puede correr sin problema el proyecto en su equipo local.
