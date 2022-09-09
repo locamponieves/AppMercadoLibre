@@ -1,0 +1,26 @@
+.notFound {
+  @include container();
+  background-color: var(--white);
+  color: var(--black);
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+
+  .notFound-image {
+    width: 200px;
+  }
+
+  .notFound-title {
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+  }
+
+  .notFound-link {
+    color: var(--darkGray);
+    cursor: pointer;
+    font-size: 14px;
+  }
+}

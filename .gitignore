@@ -1,0 +1,12 @@
+# dependencies
+Backend/node_modules
+Frontend/node_modules
+
+Backend/dist
+Frontend/dist
+
+Backend/dist-ssr
+Frontend/dist-ssr
+
+Backend/*.local
+Frontend/*.local

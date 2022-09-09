@@ -1,0 +1,10 @@
+@mixin container($backgroundColor: var(--backGray)) {
+  background-color: $backgroundColor;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 94%;
+
+  @media screen and (min-width: 1200px) {
+    width: 52%;
+  }
+}

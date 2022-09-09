@@ -1,0 +1,51 @@
+.navbar {
+  align-items: center;
+  background: var(--yellow);
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+  .logoNavbar {
+    margin-right: 10px;
+  }
+
+  .search {
+    @media screen and (min-width: 1200px) {
+      width: 50%;
+    }
+
+    display: flex;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+
+    .searchTerm {
+      border: 1px solid var(--lightGray);
+      border-right: none;
+      outline: none;
+      padding: 10px;
+      width: 100%;
+    }
+
+    .searchButton {
+      background: var(--lightGray);
+      border: 1px solid var(--lightGray);
+      color: var(--white);
+      cursor: pointer;
+      font-size: 20px;
+      height: 39px;
+      text-align: center;
+      width: 40px;
+
+      .searchIcon {
+        color: var(--darkGray);
+        margin-top: 5px;
+      }
+    }
+  }
+
+  ::placeholder {
+    color: var(--mediumGray);
+  }
+}
