@@ -8,7 +8,10 @@
 ***
 Aplicación web que consume la API de mercado libre para la consulta de productos y su visualización al detalle. 
 ### Screenshot
-![Image text](https://drive.google.com/file/d/1VlIqTUuK7Aamc02Tlk2v17t17Zw-HwEP/view?usp=sharing)
+![Image text](https://i.postimg.cc/nrxMnHs8/01-foto.jpg)
+![Image text](https://i.postimg.cc/pVQpqn7P/02-foto.jpg)
+![Image text](https://i.postimg.cc/659TSpJn/03-foto.jpg)
+![Image text](https://i.postimg.cc/yxTxdw9D/04-foto.jpg)
 ## Technologies
 ***
 A list of technologies used within the project:
