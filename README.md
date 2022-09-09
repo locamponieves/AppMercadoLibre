@@ -8,7 +8,7 @@
 ***
 Aplicación web que consume la API de mercado libre para la consulta de productos y su visualización al detalle. 
 ### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![Image text](https://drive.google.com/file/d/1VlIqTUuK7Aamc02Tlk2v17t17Zw-HwEP/view?usp=sharing)
 ## Technologies
 ***
 A list of technologies used within the project:
