@@ -27,7 +27,8 @@ Clonamos el repositorio.
 git clone https://github.com/locamponieves/AppMercadoLibre
 ```
 Despues de descargar el repositorio, ingresar a la carpeta AppMercadoLibre.
-Encontrará 2 carpetas mas (Frontend y Backend) 
+Encontrará 2 carpetas mas (Frontend y Backend)
+ 
 ![Image text](https://i.postimg.cc/zX6QP34G/Captura-de-pantalla-125.png)
 
 
