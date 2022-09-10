@@ -1,14 +1,23 @@
 import { FaSearch } from "react-icons/fa";
 import { useNavigate, Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState([]);
+  const [disabledButton, setDisabledButton] = useState(true);
 
   const handerClick = () => {
-    navigate(`/items/search/${searchTerm}`);
+    if (searchTerm.length != 0) {
+      setDisabledButton(false);
+
+      navigate(`/items/search/${searchTerm}`);
+    }
   };
+
+  useEffect(() => {
+    setDisabledButton(false);
+  }, [searchTerm]);
 
   return (
     <nav className="navbar">
@@ -26,7 +35,12 @@ export default function Navbar() {
           }}
         />
 
-        <button onClick={handerClick} type="submit" className="searchButton">
+        <button
+          onClick={handerClick}
+          disabled={disabledButton}
+          type="submit"
+          className="searchButton"
+        >
           <FaSearch className="searchIcon" />
         </button>
       </div>
