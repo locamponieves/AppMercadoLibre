@@ -10,7 +10,7 @@ Aplicación web que consume la API de mercado libre para la consulta de producto
 ![Image text](https://i.postimg.cc/HscWFcvJ/02-foto.png)
 ![Image text](https://i.postimg.cc/5Nh9J4Ds/03-foto.png)
 ![Image text](https://i.postimg.cc/RZwSZrB4/04-foto.png)
-## Tecnologías 🛠️
+## Tecnologías
 ***
 Lista de las tecnologias utilizadas en este proyecto:
 * NodeJS 16.13.2 (Express)
@@ -18,7 +18,7 @@ Lista de las tecnologias utilizadas en este proyecto:
 * Html
 * Css (Sass)
 * JavaScript (ReactJS)
-## Instalación 🔧
+## Instalación
 ***
 ## Pasos para poder ejecutar el proyecto en su equipo. 
 
